@@ -65,7 +65,7 @@ function renderLogin(mode = "signin") {
   <div class="auth-screen"><div class="aurora"></div>
     <div class="auth-card">
       <div class="auth-head">
-        <div class="auth-mark">F</div>
+        <img class="auth-mark" src="logo.png" alt="FIT">
         <div><h1>FIT Scheduler</h1><p>Find a time that works for everyone.</p></div>
       </div>
       <button class="google-btn" id="google">
@@ -116,7 +116,7 @@ function shell(inner) {
   const name = profile?.display_name || "";
   app.innerHTML = `
   <header class="topbar"><div class="topbar-inner">
-    <a class="brand" href="#/"><span class="brand-mark">F</span><span>FIT Scheduler</span>
+    <a class="brand" href="#/"><img class="brand-mark" src="logo.png" alt=""><span>FIT Scheduler</span>
       <span class="brand-sep">/</span><span class="brand-sub">New York time</span></a>
     <div class="spacer"></div>
     <button class="nav-btn" id="theme-btn" title="Switch theme">${getTheme() === "dark" ? "☀ Light" : "☾ Dark"}</button>
@@ -713,7 +713,7 @@ async function renderEvent(id) {
 
 /* ───────────── start ───────────── */
 if (SUPABASE_URL.includes("YOUR-PROJECT")) {
-  app.innerHTML = `<div class="auth-screen"><div class="aurora"></div><div class="auth-card"><div class="auth-head"><div class="auth-mark">F</div>
+  app.innerHTML = `<div class="auth-screen"><div class="aurora"></div><div class="auth-card"><div class="auth-head"><img class="auth-mark" src="logo.png" alt="FIT">
     <div><h1>Almost there</h1><p>Add your Supabase URL and anon key to <code>config.js</code>, then reload.</p></div></div></div></div>`;
 } else {
   const { data } = await sb.auth.getSession();
