@@ -1,6 +1,6 @@
 # FIT Scheduler
 
-A When2meet-style group scheduling app for FIT students, styled after the PRISM LCA app.
+A group scheduling app for FIT students, styled after the PRISM LCA app.
 It runs on GitHub Pages (free hosting) and Supabase (free database and sign-in).
 
 **Live site:** https://elenachoi1.github.io/FIT-Scheduler/
