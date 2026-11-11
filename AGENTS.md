@@ -1,7 +1,7 @@
 # FIT Scheduler — notes for coding agents
 
 ## What this is
-A When2meet-style group scheduler. Plain HTML/CSS/JavaScript (ES modules) with **no build step and no npm dependencies**.
+A group scheduling tool. Plain HTML/CSS/JavaScript (ES modules) with **no build step and no npm dependencies**.
 Data, sign-in and live updates come from Supabase. Hosted on GitHub Pages from the `main` branch root.
 
 Live site: https://elenachoi1.github.io/FIT-Scheduler/

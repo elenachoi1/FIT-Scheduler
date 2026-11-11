@@ -653,7 +653,7 @@ async function renderEvent(id) {
     if (status.classList.contains("saving") && !saving) { clearTimeout(saveTimer); save(); } // flush on navigate
   });
 
-  /* drag-to-select (rectangle, like When2meet) */
+  /* drag-to-select with a rectangle */
   let drag = null; // { d0, t0, add, base }
   const applyRect = (d1, t1) => {
     const next = new Set(drag.base);
