@@ -1,0 +1,11 @@
+{
+  "name": "fit-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "When2meet-style group scheduler for FIT (static site + Supabase)",
+  "scripts": {
+    "dev": "echo 'FIT Scheduler → http://localhost:8000' && python3 -m http.server 8000",
+    "start": "npm run dev",
+    "check": "node --check app.js && node --check recommend.js && node --check config.js"
+  }
+}
