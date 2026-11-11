@@ -84,6 +84,7 @@ function renderLogin(mode = "signin") {
         <p class="error" id="auth-error"></p>
         <button class="btn btn-primary btn-lg" type="submit">${mode === "signup" ? "Create account" : "Sign in"}</button>
       </form>
+      <p class="muted small" style="text-align:center;margin:0"><a href="privacy.html" style="color:#9298a3">Privacy Policy</a></p>
     </div>
   </div>`;
 
